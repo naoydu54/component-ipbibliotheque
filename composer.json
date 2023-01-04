@@ -1,0 +1,46 @@
+{
+    "name": "components/ipbibliotheque",
+    "description": "Info Plus Bibliotheque components",
+    "type": "component",
+    "homepage": "http://www.info-plus.fr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Info Plus",
+            "homepage": "http://www.info-plus.fr"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "plugins/EventEmitter/*.js",
+                "plugins/bibliotheque/*.js",
+                "plugins/bootstrap-dialog/js/*.js",
+                "plugins/context-menu/*.js",
+                "plugins/dropzone/*.js",
+                "plugins/dropzone/min/*.js",
+                "plugins/is.js/*.js",
+                "plugins/nicescroll/*.js",
+                "plugins/unveil/*.js",
+                "plugins/pixlr/*.js",
+                "plugins/mustache/*.js"
+            ],
+            "styles": [
+                "plugins/bibliotheque/*.css",
+                "plugins/bootstrap-dialog/css/*.css",
+                "plugins/context-menu/*.css",
+                "plugins/dropzone/*.css",
+                "plugins/dropzone/min/*.css"
+            ],
+            "files": [
+                "plugins/context-menu/font/*",
+                "plugins/bibliotheque/assets/*.png",
+                "plugins/bibliotheque/assets/*.jpg",
+                "plugins/bibliotheque/templates/*.mst"
+            ]
+        }
+    }
+}
